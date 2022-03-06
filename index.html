@@ -76,7 +76,7 @@
 					w = window.innerWidth;
 					h = window.innerHeight;
 
-					var r = 1080 / 2268;
+					var r = window.innerHeight / window.innerWidth;
 
 					if (w * r > window.innerHeight) {
 						w = Math.min(w, Math.ceil(h / r));
